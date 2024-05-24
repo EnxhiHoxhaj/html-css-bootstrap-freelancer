@@ -22,8 +22,8 @@
 }
 
 .row {
-    background-color: purple;
-    min-height: 50px;
+    background-color: red;
+    min-height: 70px;
 }
 
 .row:last-child{
@@ -34,4 +34,10 @@
 [class*="col-"] {
     background-color: bisque;
     border: solid rgb(72, 255, 0) 2px;
+    min-height: 50px;
+
+}
+
+.img-jumbo {
+    min-height: 300px;
 }
