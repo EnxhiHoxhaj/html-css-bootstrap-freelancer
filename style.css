@@ -5,3 +5,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*DEBUG*/
+.container-sm, .container-md, .container-lg {
+    background-color: chocolate;
+    border: solid rgb(19, 146, 224) 2px;
+    min-height: 800px;
+    width: 100%;
+}
+
+.container-fluid {
+    background-color: lightgreen;
+    border: solid rgb(224, 19, 214) 2px;
+    min-height: 200px;
+    width: 100%;
+}
+
+.row {
+    background-color: purple;
+    min-height: 50px;
+}
+
+.row:last-child{
+    background-color: purple;
+    min-height: 400px;
+}
+
+[class*="col-"] {
+    background-color: bisque;
+    border: solid rgb(72, 255, 0) 2px;
+}
