@@ -62,18 +62,32 @@ header .menu {
     padding: 0.2rem 0.4rem;
 }
 
-.img-jumbo {
-    padding-top: 100px;
-    height:calc(100vh - 100px);
+/*Jumbotron*/
+
+.jumbo {
+    padding: 130px 0 30px;
     color: white;
     text-align: center;
     background-color: #1abc9c;
+    font-weight: bold;
 }
 
 .img-jumbo img {
     width: 50%;
 }
 
-.fa-star, .star p {
+.img-jumbo h5 {
+    font-size: 18px;
+}
+
+#star {
     font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: calc(20px - .5rem);
+}
+
+.img-jumbo h1, .img-jumbo h5{
+    margin-top: 20px;
 }
