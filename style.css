@@ -14,13 +14,8 @@
 }
 
 .container-fluid {
-    background-color: lightgreen;
     border: solid rgb(224, 19, 214) 2px;
 
-}
-
-.row {
-    background-color: red;
 }
 
 [class*="col-"] {
@@ -64,12 +59,11 @@ header .menu {
 
 /*Jumbotron*/
 
-.jumbo {
+#jumbo {
     padding: 130px 0 30px;
     color: white;
     text-align: center;
     background-color: #1abc9c;
-    font-weight: bold;
 }
 
 .img-jumbo img {
@@ -80,14 +74,33 @@ header .menu {
     font-size: 18px;
 }
 
-#star {
+.star {
     font-size: 35px;
     display: flex;
     justify-content: center;
     align-items: baseline;
-    margin-top: calc(20px - .5rem);
+    margin-top: 1rem;
+    color: #2c3e50;
+    font-weight: bold;
 }
 
 .img-jumbo h1, .img-jumbo h5{
-    margin-top: 20px;
+    margin-top: 1.5rem;
+}
+
+/*PORTFOLIO*/
+
+#portfolio {
+    padding: 3rem 0;
+}
+
+#portfolio h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 2rem;
 }
