@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+.bk {
+    color: #2c3e50
+}
+.wh {
+    color: white;
+}
+
 /*DEBUG*/
 .container-sm, .container-md, .container-lg {
     background-color: chocolate;
@@ -60,10 +67,11 @@ header .menu {
     color: white;
     text-align: center;
     background-color: #1abc9c;
+    height: calc(100vh);
 }
 
 .img-jumbo img {
-    width: 50%;
+    width: 60%;
 }
 
 .star {
@@ -72,7 +80,6 @@ header .menu {
     justify-content: center;
     align-items: baseline;
     margin-top: 1rem;
-    color: white;
     font-weight: bold;
 }
 
@@ -82,7 +89,7 @@ header .menu {
 }
 
 .img-jumbo h5 {
-    font-size: 16px;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
     font-weight: 600;
 }
@@ -90,7 +97,7 @@ header .menu {
 
 /*PORTFOLIO*/
 
-#portfolio, #about-us {
+.padding-section {
     padding: 3rem 0;
 }
 
@@ -98,10 +105,6 @@ header .menu {
     width: 100%;
     border-radius: 15px;
     margin-top: 2rem;
-}
-
-#portfolio .star {
-    color:#2c3e50;
 }
 
 .tit-small {
@@ -125,7 +128,6 @@ header .menu {
     margin: 3rem 0 -1rem;
 }
 
-
 .button {
     width:max-content;
     text-decoration: none;
@@ -136,3 +138,28 @@ header .menu {
     padding: .5rem 1rem;
     font-size: 1.1rem;    
 }
+
+/*Contact me*/
+
+#info {
+    margin-top: 1rem;
+}
+
+input {
+    border: none;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+#contact-me .flex {
+    margin: 7rem 0 -1rem;
+    justify-content: flex-end;
+}
+
+#last-hr {
+    padding: .3rem;
+}
+
+
