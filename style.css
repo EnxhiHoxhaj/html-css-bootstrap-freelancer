@@ -31,10 +31,6 @@
     justify-content: center;
 }
 
-.about-us, .contact-me, .img-portfolio {
-    min-height: 400px;
-}
-
 footer .row {
     background-color: black;
 }
@@ -70,37 +66,73 @@ header .menu {
     width: 50%;
 }
 
-.img-jumbo h5 {
-    font-size: 18px;
-}
-
 .star {
     font-size: 35px;
     display: flex;
     justify-content: center;
     align-items: baseline;
     margin-top: 1rem;
-    color: #2c3e50;
+    color: white;
     font-weight: bold;
 }
 
-.img-jumbo h1, .img-jumbo h5{
+.img-jumbo h1 {
     margin-top: 1.5rem;
+    font-weight: bold;
 }
+
+.img-jumbo h5 {
+    font-size: 16px;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
 
 /*PORTFOLIO*/
 
-#portfolio {
+#portfolio, #about-us {
     padding: 3rem 0;
-}
-
-#portfolio h3 {
-    text-align: center;
-    font-weight: bold;
 }
 
 #portfolio img {
     width: 100%;
     border-radius: 15px;
     margin-top: 2rem;
+}
+
+#portfolio .star {
+    color:#2c3e50;
+}
+
+.tit-small {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*ABOUT US*/
+#about-us, #about-us .star {
+    background-color: #1abc9c;
+    color: white;
+    font-weight: 600;   
+}
+
+#about-us p {
+    font-size: 1.1rem;
+    margin: 1rem 0 2rem;
+}
+
+#about-us .col-8 .flex{
+    margin: 3rem 0 -1rem;
+}
+
+
+.button {
+    width:max-content;
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9c;
+    border: solid white 0.1rem;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;    
 }
