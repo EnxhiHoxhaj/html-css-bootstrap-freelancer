@@ -27,9 +27,6 @@
     display: flex;
 }
 
-main .container-fluid, main .container-sm, main .container-md, main .container-lg {
-    padding: 0;
-}
 
 /*HEADER*/
 
@@ -88,7 +85,7 @@ header {
     padding: 3rem 0;
 }
 
-#portfolio img {
+.portfolio img {
     width: 100%;
     border-radius: 15px;
     margin-top: 2rem;
